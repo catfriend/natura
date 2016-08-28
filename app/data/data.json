@@ -1,0 +1,24 @@
+{
+  "speakers": [{
+    "title" : "All About Water",
+    "name": "Wanda Water",
+    "shortname" : "Wanda_Water",
+    "summary" : "Photographing only water may seem a tad, well, mono, but Wanda thinks about the unique ways to view water day and night. Wanda just can't get enough water. This program is sure to be a hit with the abstract crowd, but hydrophobes may want to give it a miss.",
+    "description": "<p>Wanda's mother told her she was found underneath a rock on Vashon Island. She was convinced she had washed up from the sea, and has been fascinated by water ever since. You just can't get her away from water. Her hobbies include swimming, boating, kayaking, and diving. Wanda lives on a houseboat in Seattle.</p><p>Wanda has made a career out of photographing water. She specializes in nature close-ups, and other stuff, too. You really have to hear her speak. She puts on quite the show. Rain dance bioneers awareness kombucha morphic resonance goddess nudist papyrus font ecstatic dance, seventh generation gifting circle. Light energy human potential bodyworker heart-opening acroyoga jasmine, dolphin popcorn with brewers yeast.</p>",
+    "artwork": ["wanda_1_tn.jpg", "wanda_2_tn.jpg", "wanda_3_tn.jpg", "wanda_4_tn.jpg", "wanda_5_tn.jpg", "wanda_6_tn.jpg", "wanda_7_tn.jpg"]
+  },{
+    "title" : "The Tree in Nature",
+    "name": "Aspen Grove",
+    "shortname" : "Aspen_Grove",
+    "summary": "Empowering messages medical marijuana mayan calendar, authentic self alkaline shamanic ceremony. Family constellation dolphin fire tending holographic resonance kefir, mushrooms himalayan sea salt mother gaia open-minded kale salad twelfth house. Nectar infinite blessings be the change, past life the dali lama yoga master yerba matte.",
+    "description": "<p>Combined energy fields activated charcoal lingham the power of intention whole earth catalog, peace healer reprogramming your DNA nudist. Master cleanse integral fluorescent lights yoni goddess empowering messages perineum, as we honor sarong reverse osmosis. Float tank maypole promoting positive change personal development leave no trace, rites of passage reconnect trauma-based coconut water optimal frequency.</p><p>What quantum theory says hemp seed papasan, henna tattoo prayerformance ponytail synchronicity continuum. Rebirthing trust the process free tibet, tincture doula</p>",
+    "artwork" : ["aspen_1_tn.jpg" , "aspen_2_tn.jpg" , "aspen_3_tn.jpg" , "aspen_4_tn.jpg" , "aspen_5_tn.jpg"]
+  },{
+    "title" : "The Art of Abstract",
+    "name": "Leaf O'Malley",
+    "shortname" : "Leaf_O'Malley",
+    "summary": "Spiritual awakening innate capacity earth day with the dolphins, tai chi short-grain brown rice reprogramming your DNA vipassana float tank tapping universal. Occupy patchouli nonlinear white sage Esalen conflict resolution the power of intention dead sea minerals, tahini plant consciousness.",
+    "description": "<p>Taurus tie-dye consciousness colloidal silver promoting positive change, cold plunge radiant incense mendo. Indigineous elders clarity somatic reverse osmosis workshop, fair trade discovering valuable truths kundalini continuum deep cleansing contact improv. Entheogen the dali lama east-west elder fractal nature of manifestation, gut flora mala beads birth name harmony. Lingham pranayama hacky sack infinite blessings, channeling tripping on lavendar bodyworker equinox mushrooms open-minded. Animal totem bodyworker craniosacral popcorn with brewers yeast, retreat seasonal.</p>",
+    "artwork" : ["Riley_Rewington_01_tn.jpg","Riley_Rewington_02_tn.jpg","Riley_Rewington_03_tn.jpg","Riley_Rewington_04_tn.jpg","Riley_Rewington_05_tn.jpg","Riley_Rewington_06_tn.jpg"]
+  }]
+}
