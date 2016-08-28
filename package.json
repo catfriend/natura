@@ -4,6 +4,7 @@
   "description": "A node demo app",
   "main": "app/app.js",
   "scripts": {
+  	"start": "nodemon -e css,ejs,js,json --watch app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "catfriend",
