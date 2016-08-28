@@ -1,10 +1,13 @@
-var express = require("express");
+var express = require('express');
 var app = express();
+var dataFile = require('./data/data.json');
 
-app.get('/',function(req, res) {
-	res.send('<h1>Natura Meetups</h1>');
-});
+app.set('port', process.env.PORT || 3000 );
+app.set('appData', dataFile);
 
-var server = app.listen(3000, function() {
-	console.log('Listening on port 3000');
+app.use(require('./routes/index'));
+app.use(require('./routes/speakers'));
+
+var server = app.listen(app.get('port'), function() {
+  console.log('Listening on port ' + app.get('port'));
 });
