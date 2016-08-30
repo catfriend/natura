@@ -14,21 +14,28 @@ var data = req.app.get('appData');
     pageTitle: 'Speakers',
     photos: pagePhotos,
     speakers: pageSpeakers,
-    pageID: 'speakers'
+    pageID: 'speakerList'
   });
 });
 
 router.get('/speakers/:speakerid', function(req, res) {
-  var dataFile = req.app.get('appData');
-  var speaker = dataFile.speakers[req.params.speakerid];
-  res.send(`
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-      <h1>${speaker.title}</h1>
-      <h2>with ${speaker.name}</h2>
-      <img src="/images/speakers/${speaker.shortname}_tn.jpg" alt="speaker">
-      <p>${speaker.summary}</p>
-      <script src="/reload/reload.js"></script>
-  `);
+  var data = req.app.get('appData');
+  var pagePhotos = [];
+  var pageSpeakers = [];
+
+  data.speakers.forEach(function(item) {
+    if (item.shortname == req.params.speakerid) {
+      pageSpeakers.push(item);
+      pagePhotos = pagePhotos.concat(item.photos);
+    }
+  });
+
+  res.render('speakers', {
+    pageTitle: 'Speaker Info',
+    photos: pagePhotos,
+    speakers: pageSpeakers,
+    pageID: 'speakerDetail'
+  });
 });
 
 module.exports = router;

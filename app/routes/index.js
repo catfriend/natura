@@ -10,12 +10,12 @@ router.get('/', function(req, res) {
 		pagePhotos = pagePhotos.concat(item.photos);
 	});
 
-	res.render('index', {
-		pageTitle: 'Home',
-		photos: pagePhotos,
-		speakers: pageSpeakers,
-		pageID: 'home'
-	});
+  res.render('index', {
+    pageTitle: 'Home',
+    photos: pagePhotos,
+    speakers: pageSpeakers,
+    pageID: 'home'
+  });
 
 });
 
