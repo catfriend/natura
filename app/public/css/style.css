@@ -9,7 +9,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  color: #055E0B;
+  color: #b38600;
 }
 
 p {
@@ -25,7 +25,7 @@ li {
 
 
 a {
-  color: #22BF47;
+  color: #806000;
 }
 
 /**  Header Navigation **/
@@ -47,7 +47,7 @@ header .jumbotron {
 /**  Navbar **/
 
 header .navbar {
-  background: #0F570C;
+  background: #FFBF00;
   margin-bottom: 0;
   border-radius: 0;
   font-family: "Raleway", sans-serif;
@@ -147,7 +147,7 @@ header .navbar-inverse .navbar-nav>li>a {
 
 .jumbotron {
   padding: 20px 0;
-  background-color: #7BE082;
+  background-color: #FFE187;
 }
 
 
@@ -171,6 +171,60 @@ header .navbar-inverse .navbar-nav>li>a {
   .pixgrid img {
     width: 20%;
   }
+}
+
+/**  chat-display **/
+
+.chat-display {
+  min-height: 150px;
+  max-height: 40vh;
+  overflow: scroll;
+  font-size: 1.2em;
+}
+
+.chat-display p {
+  font-size: .9em;
+  padding: 0 10px;
+}
+
+.feedback, .feedback-form-title {
+  font-size: 2rem;
+}
+
+.feedback-form {
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+}
+
+
+.feedback-title {
+  font-size: 1.2em;
+}
+
+.feedback-form-title {
+  font-size: 2em;
+}
+
+.feedback-name {
+  font-size: .6em;
+  font-weight: 100;
+}
+
+.feedback-message {
+  font-weight: 100;
+  font-size: .9em;
+  line-height: 120%;
+  margin-top: 5px;
+}
+
+.feedback-item {
+  border-bottom: 1px solid gray;
+  padding: 8px 0;
+}
+
+.feedback-item:last-of-type {
+  border-bottom: none;
 }
 
 
