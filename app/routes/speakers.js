@@ -24,7 +24,7 @@ router.get('/speakers/:speakerid', function(req, res) {
   var pageSpeakers = [];
 
   data.speakers.forEach(function(item) {
-    if (item.shortname == req.params.speakerid) {
+    if (item.shortname == req.params.speakerid) { //only speaker added to url
       pageSpeakers.push(item);
       pagePhotos = pagePhotos.concat(item.photos);
     }
